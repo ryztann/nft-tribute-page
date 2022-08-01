@@ -1,0 +1,59 @@
+/* Ukuran Mobile Smartphone */
+@media screen and (width: 320px) {
+    nav {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    #tribute-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tribute-info ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tribute-info li {
+        width: 95%;
+    }
+
+    #videos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #videos iframe {
+        width: 100%;
+        height: 220px;
+        padding: 8px;
+    }
+
+    #follow li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
